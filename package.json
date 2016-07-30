@@ -1,0 +1,11 @@
+{
+  "name": "coppia.co",
+  "version": "1.0.0",
+  "description": "Coppia.co front end website (entry to app.copppia.co)",
+  "main": "index.htm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Hillenbrand",
+  "license": "MIT"
+}
