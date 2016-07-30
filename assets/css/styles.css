@@ -1,0 +1,21 @@
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-background-img  {
+    border-bottom: solid 20px #fd9a2b;
+}
+
+.beta-signup-font {
+    color: #fd9a2b;
+    font-size: 36px;
+}
+
+@media (max-width: 1350px) {
+
+    .header-background-img {
+        width: 100%;
+        height: auto;
+    }
+}
