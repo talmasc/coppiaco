@@ -1,3 +1,32 @@
+h3 {
+    font-family: "essonnes-display", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.h3-why {
+    
+    color: #fd9a2b;
+}
+
+.h3-together {
+    color: #528945;
+}
+
+.h3-slides {
+    color: #4a4a6b;
+}
+
+.benefits-p {
+    line-height: 2.0em; 
+    margin-top: 20px;
+    font-family: "proxima-nova", sans-serif;    
+}
+
+.benefits-img-height {
+    height: 175px;
+}
+
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -9,7 +38,11 @@
 
 .beta-signup-font {
     color: #fd9a2b;
-    font-size: 36px;
+    /*font-family: "proxima-nova",sans-serif;*/
+    font-style: normal;
+    letter-spacing: 1.3px;
+    font-weight: 100;
+    font-size: 60px;
 }
 
 @media (max-width: 1350px) {
