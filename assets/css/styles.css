@@ -1,3 +1,18 @@
+
+.hero-title {
+    color: #ffffff;
+     font-family: "essonnes-display", sans-serif;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.hero-content {
+     font-family: "proxima-nova", sans-serif;    
+     font-size: 26px;
+     color: #ffffff;
+}
+
 h3 {
     font-family: "essonnes-display", sans-serif;
     font-size: 28px;
@@ -34,6 +49,11 @@ h3 {
 
 .header-background-img  {
     border-bottom: solid 20px #fd9a2b;
+    background: url(../images/hero-image.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .beta-signup-font {
@@ -44,6 +64,27 @@ h3 {
     font-weight: 100;
     font-size: 60px;
 }
+
+.signup-content {
+    color: #ffffff;
+    font-family: "proxima-nova",sans-serif;
+    /*letter-spacing: 1.3px;
+    font-weight: 100;*/
+    font-size: 26px;
+}
+
+.input-group {
+    margin-top: 65px;
+}
+
+.form-control {
+    height: 80px;
+     font-family: "essonnes-display", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
 
 @media (max-width: 1350px) {
 
