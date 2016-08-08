@@ -65,6 +65,10 @@ h3 {
     font-size: 60px;
 }
 
+iframe .container {
+    width: 100% !important;
+}
+
 .signup-content {
     color: #ffffff;
     font-family: "proxima-nova",sans-serif;
