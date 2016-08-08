@@ -85,6 +85,12 @@ h3 {
     color: black;
 }
 
+.copyright {
+    color: #c29771;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 12px;
+}
+
 
 @media (max-width: 1350px) {
 
