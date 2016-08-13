@@ -13,6 +13,10 @@
      color: #ffffff;
 }
 
+.container-width {
+    width: 960px;
+}
+
 h3 {
     font-family: "essonnes-display", sans-serif;
     font-size: 28px;
@@ -45,6 +49,11 @@ h3 {
 .no-padding {
     padding-left: 0;
     padding-right: 0;
+}
+
+.no-margin {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header-background-img  {
@@ -96,10 +105,57 @@ iframe .container {
 }
 
 
-@media (max-width: 1350px) {
+@media (max-width: 1620px) {
+   
+}
 
-    .header-background-img {
+@media (max-width: 1350px) {
+  .header-background-img {
         width: 100%;
         height: auto;
     }
+}
+@media (max-width: 1199px) {
+    .container-width {
+        width: 100%;
+    }
+
+    .header-background-img  {
+        width: auto;
+    }
+
+    .no-margin {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+ /********** TABLET SIZING BEGINS ************/
+@media (max-width: 991px) {
+
+}
+
+/********** PHONE SIZING BEGINS ************/
+@media(max-width: 767px) {
+
+}
+
+@media(max-width: 550px) {
+   
+}
+
+@media(max-width: 500px) {
+
+}
+
+@media(max-width: 450px) {
+  
+}
+
+@media(max-width: 400px) {
+   
+}
+
+@media(max-width: 350px) {
+
 }
