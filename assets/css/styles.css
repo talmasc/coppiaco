@@ -13,8 +13,64 @@
      color: #ffffff;
 }
 
+.hero-h2-margin-top {
+    margin-top: 110px;
+}
+
+.hero-content-margin-top-bottom {
+    margin-top: 10px; 
+    margin-bottom: 185px;
+}
+
+.icons-margin-top {
+    margin-top: 130px;
+}
+
+.icon-why-width {
+    width: 150px;
+}
+
+.icon-together-width {
+    width: 150px;
+}
+
+.icon-slides-width {
+    width: 200px; 
+    margin-top: 15px;
+}
+
+.form-content-div {
+    background-color: #1f2735; 
+    height: 650px;
+}
+
+.form-content-margin {
+    margin-top: 95px;
+}
+
+.footer-styling {
+    background-color: #181e29; 
+    height: 100px;
+}
+
+.social-icons-margin {
+    margin-top: 40px;
+}
+
+.co-logo-margin {
+    margin-top: 28px;
+}
+
+.copyright-margin {
+    margin-top: 45px;
+}
+
 .container-width {
     width: 960px;
+}
+
+.logo-margin-top {
+    margin-top: 10px;
 }
 
 h3 {
@@ -51,7 +107,7 @@ h3 {
     padding-right: 0;
 }
 
-.no-margin {
+.no-side-margin {
     margin-right: auto;
     margin-left: auto;
 }
@@ -104,9 +160,14 @@ iframe .container {
     font-size: 12px;
 }
 
+.container-icons {
+    height: 650px;
+}
 
 @media (max-width: 1620px) {
-   
+   .container-icons {
+    height: 650px;
+}
 }
 
 @media (max-width: 1350px) {
@@ -114,6 +175,10 @@ iframe .container {
         width: 100%;
         height: auto;
     }
+
+    .container-icons {
+    height: 650px;
+}
 }
 @media (max-width: 1199px) {
     .container-width {
@@ -124,20 +189,28 @@ iframe .container {
         width: auto;
     }
 
-    .no-margin {
+    .no-side-margin {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .container-icons {
+        height: 650px;
     }
 }
 
  /********** TABLET SIZING BEGINS ************/
 @media (max-width: 991px) {
-
+    .container-icons {
+        height: 650px;
+    }
 }
 
 /********** PHONE SIZING BEGINS ************/
-@media(max-width: 767px) {
-
+@media (max-width: 767px) {
+    .container-icons {
+        height: 1100px;
+    }
 }
 
 @media(max-width: 550px) {
